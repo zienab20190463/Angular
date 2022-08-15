@@ -1,0 +1,56 @@
+
+rem vs em :
+
+-if you wish to scale the element size based on parent size (use em)
+-if you wish to scale the element size based on root size (use rem)
+
+-1rem +1rem =16px by default 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+css positions :
+
+1)static :This is the default for every single page element ,it just means that the element will flow into the page as it normally would
+
+2)relative :relative; on an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it’s positioning at all( top: 10px;, it will shift its position 10 pixels down from where it would normally be)
+
+3)absolute:allows you to literally place any page element exactly where you want it. You use the positioning attributes top, left, bottom, and right to set the location. 
+
+4)fixed:is positioned relative to the viewport, or the browser window itself. The viewport doesn’t change when the window is scrolled
+
+5)sticky: sticky element will just sit there like a static element, but as you scroll past it, if it’s parent element has room (usually: extra height) the sticky element will behave as if it’s fixed until that parent element is out of room
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+for vs while loop :
+
+1)for loop:
+-It is used when the number of iterations is known.
+-In case of no condition, the loop is repeated infinite times.
+-Initialization can be in or out of the loop
+-Statement of Iteration is written after running
+
+2)while loop:
+-It is used when the number of iterations is not known
+-In case of no condition, an error will be shown.
+-Initialization is always out of the loop.
+-Statement of Iteration Can be written at any place.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+regular vs arrow functions :
+
+-arguments object:
+--Inside the body of a regular function, arguments is a special array-like object containing the list of arguments with which the function has been invoked(regular function)
+--no arguments special keyword is defined inside an arrow function(Arrow function)
+
+-You can return values from the arrow function the same way as from a regular function, but with one useful exception.
+-this value inside a regular function is dynamic and depends on the invocation. But this inside the arrow function is bound lexically and equals to this of the outer function.
+-If the arrow function has one expression, then the expression is returned implicitly, even without using the return keyword.
+
+----------------------------------------------------------------------------------
+object vs instance oop
+
+Instance: instance means just creating a reference(copy).
+
+object: means when memory location is associated with the object (is a run-time entity of the class) by using the new operator.
+
+In simple words, Instance refers to the copy of the object at a particular time whereas object refers to the memory address of the class.
