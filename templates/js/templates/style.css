@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #b52727;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(182, 43, 43);
+  overflow: hidden;
+    float: right;
+    color: #b52727;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+img {
+width:20% ;
+height: 70px;
+  }
