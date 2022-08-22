@@ -1,0 +1,87 @@
+question 1
+
+1)undefined
+  object
+  5,0,1,2,3,4      -->explain: array in pos 0,1,2,3,4 is empty so the length become 11
+  apple
+
+2)fiat
+  undefined
+  kia 
+  undefined
+  volvo
+  undefined
+  mercedes
+  undefined
+  undefined
+  fiat
+  undefined
+  kia
+  undefined
+  volvo
+  undefined
+  mercedes
+
+3)0
+  1
+
+4)boolean
+  string
+
+5)refrence error
+
+6)error
+
+7)welcome undefined
+
+8)undefined
+  Welcome
+
+9) 0 1 4 2 3
+
+10)0
+   false
+   11
+
+
+------------------------------------------------------------------------------
+Question(2)
+
+a)
+
+let s=prompt("enter string");
+for(var i=s.length;i>=0;i--){
+    console.log(s.charAt(i))
+} 
+
+
+b)
+
+function FizzBuzz(){
+let num=Number(prompt("enter number"))
+    if (num % 15 == 0)
+        console.log("FizzBuzz");
+    else if (num % 3 == 0)
+        console.log("Fizz");
+    else if (num  % 5 == 0)
+        console.log("Buzz");
+    else
+        console.log(num);
+}
+FizzBuzz()
+
+c)
+function fact(n){
+    
+    if(n==0){
+        return 1;
+    }
+    else{
+        return n * fact(n-1);
+
+    }
+
+}
+let num=5;
+let res=fact(num)
+console.log(res)
