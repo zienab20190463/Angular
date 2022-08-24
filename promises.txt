@@ -1,0 +1,32 @@
+promise is one of the best features in es6
+promise make it easy to support Asynchronous programming
+promise in javascript is like promise in real life
+promise is an Object
+javascript use callbacks for Asynchronous programming
+in complex cases : every call add nesting level
+promise avoiding callback hell or pyramid od Dom
+
+promise is one of this states :
+1)pending=> rejected
+2)fulfilled=>operation succeeded
+3)rejected=>operation failed
+
+code:
+
+const mypromise=new Promise((resolve,reject)=>{
+
+
+let connect=true;
+
+if(connect){
+    resolve("connection done")
+}else{
+    reject(Error("connection failed"))
+}
+
+});
+mypromise.then(
+    (resolved)=>console.log(resolved), //btgeeb el content bta3 resolve
+    (rejected)=>console.log(rejected) //lw fe error 
+)
+
